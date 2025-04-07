@@ -1,0 +1,5 @@
+flask
+paddleocr
+opencv-python-headless
+pillow
+requests
