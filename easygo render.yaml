@@ -2,6 +2,6 @@ services:
   - type: web
     name: ocr-api-service
     env: python
-    buildCommand: pip install -r easygo requirements.txt
-    startCommand: python easygo app.py
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
     plan: free
